@@ -1,23 +1,6 @@
 /* custom_giscus.css */
 
-.giscus-frame {
-	/* Example: Set a custom background color */
-	background-color: #212530; /* Dark gray */
+/* Override the background color */
+:root {
+	--giscus-bg-color: #2c3e50; /* Replace with your desired color */
 }
-
-.giscus {
-	/* Example: Adjust padding and margins */
-	padding: 20px;
-	margin-top: 40px;
-}
-
-/* Customize specific elements */
-.giscus-container {
-	color: #a0aec0; /* Light gray text */
-}
-
-.giscus-title {
-	color: #2d3748; /* Darker gray for titles */
-}
-
-
